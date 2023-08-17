@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel= "stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Register Here </h2>
+        <br>
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            <label for="username"> Username</label>
+            <input type="text" id="username" placeholder="Sucrasejackson" minlength="4" maxlength="10" required><br>
+            <br>
+            <label for="password"> Password</label>
+            <input type="password" id="password"><br>
+            <br>
+            <label for="email"> Email</label>
+            <input type="email" id="email" placeholder="sucrasejackson@yahoo.com"><br>
+            <br>
+            <label for="phone"> Phone Number</label>
+            <input type="tel" id="phone" placeholder="+254 712 345 678"><br>
+            <br>
+            <label for="bday"> Birthday</label>
+            <input type="date" id="bday" placeholder="dd-mm-yyyy"><br>
+            <br>
+            <label for title> Title</label><br>
+            <label for="Mr."> Mr.</label>
+            <input type="radio" id="title" value="Mr." name="title">
+            <br>
+            <label for="Mrs"> Mrs</label>
+            <input type="radio" id="Mrs" value="Mrs" name="title">
+            <br>
+            <label for="miss"> Miss</label>
+            <input type="radio" id="title" value="Miss" name="title"><br>
+            <br>
+<p>By submitting this form, you have read and accepted the terms and condition</p>
+<br>
+            <label for="accept"> Accept</label>
+            <input type="checkbox" id="accept" required><br>
+<br>
+
+            <label for ="comment">Comment</label>
+            <textarea id="comment" rows="3" cols="30"></textarea><br>
+            <br>
+        
+            <label for="files"> Files</label>
+            <input type="file" id="file"><br>
+            <br>
+            <input type="reset"><br>
+            <br>
+            <input type="Submit">
+        </form>
+       
+    </body>
+</html>

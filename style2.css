@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+    width: 100%;
+    background: darkblue;
+    position: relative;
+    font-family: roboto, sans-serif;
+   }
+
+ h1{
+    background-color: cyan;
+}
+div{
+    background-color: tomato;
+height: 50px;
+font-size: xx-large;
+}
+span{
+    background-color: brown;
+    width: 200px;
+}
+.myc{
+    width:30%;
+    border: 5px solid black;
+}
+button{
+    background-color: grey;
+    color: lightblue;
+    border-radius: 30px;
+    font-size: 25px;
+}
+form{
+    background-color: cyan;
+    border: 2px solid blue;
+    position: fixed;
+    display: flex;
+    align-content: center;
+   }
+   
+
+  
